@@ -46,12 +46,44 @@ const SideBar = () => {
       author: "Rutayisire",
     },
     {
-      titler: "https://www.youtube.com/embed/m3CEyuMX2HY",
-      author: "Rutayisire",
+      titler: "https://www.youtube.com/embed/xztA0-pOpww",
+      author: "Gospple",
+    },
+    {
+      titler: "https://www.youtube.com/embed/xztA0-pOpww",
+      author: "Gospple2",
+    },
+    {
+      titler: "https://www.youtube.com/embed/xf8oPaTtJEY",
+      author: "Gospple3",
+    },
+    {
+      titler: "https://www.youtube.com/embed/ehxo_goADU8",
+      author: "Gospple4",
+    },
+    {
+      titler: "https://www.youtube.com/embed/wprVeT6OKMI",
+      author: "Gospple5",
+    },
+    {
+      titler: "https://www.youtube.com/embed/X7MhHPhTO9g",
+      author: "Gospple6",
+    },
+    {
+      titler: "https://www.youtube.com/embed/zDXAICBgu8o",
+      author: "Gospple7",
+    },
+    {
+      titler: "https://www.youtube.com/embed/xztA0-pOpww",
+      author: "Gospple",
+    },
+    {
+      titler: "https://www.youtube.com/embed/Q3zJRrIe89I",
+      author: "Gospple",
     },
   ];
   return (
-    <section className="flex gap-6 px-5 pt-9 w-full">
+    <section className="section-container flex gap-6 px-5 pt-9">
       <div
         className={`bg-white min-h-screen  ${
           open ? "w-72" : "w-16"
@@ -92,8 +124,8 @@ const SideBar = () => {
         <div className="card-video-container">
         {videosList.map((list) => {
             return (
-          <Card className=" flex w-full max-w-[26rem] shadow-lg">
-            <CardHeader floated={false} color="blue-gray">
+          <Card className="card-data flex w-full max-w-[26rem] shadow-lg">
+            <CardHeader floated={false} color="blue-gray" >
                   <iframe
                     src={list.titler}
                     width="560"
@@ -108,84 +140,6 @@ const SideBar = () => {
              );
         })}
         </div>
-
-        {/* <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/tG08pTcphZA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div> */}
-        {/* <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/6HM9Ae6vMoA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/DGEw55mSYxo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Yx6kgp0TMz4"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/fzxEECHnsvU"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/jB9tLHqL3x0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/og3wCO98HkQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div> */}
       </div>
     </section>
   );

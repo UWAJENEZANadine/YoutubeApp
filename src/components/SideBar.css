@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .card-video-container {
   border: 1px solid #000;
   width: 100%;
- display: grid;
- grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-container {
+  width: 100%;
+}
+.card-data :hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 2s;
 }
