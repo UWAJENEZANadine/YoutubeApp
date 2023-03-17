@@ -16,11 +16,11 @@ const NavBar = () => {
         <div className="w-96 text-gray-400">
           <Input label="search" icon={<SearchIcon />} />
         </div>
-        <div className="pt-2">
-          <FaMicrophone className="text-black text-xl " />
+        <div className="pt-2 sm:ml-64 md:ml-4">
+          <FaMicrophone className="text-black text-xl" />
         </div>
 
-        <div className="flex justify-end content-center ">
+        <div className="flex justify-end content-center sm:opacity-0 md:opacity-100">
           <BiVideoPlus className="text-black text-2xl"/>
           <IoNotificationsOutline className="text-black text-2xl ml-6"/>
           <span className="bg-red-500 rounded-md h-6 text-white p-1">9+</span>
