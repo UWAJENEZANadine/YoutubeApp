@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 .card-video-container {
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  border-radius: 2px;
 }
 .section-container {
   width: 100%;
@@ -15,5 +14,7 @@
 .card-data :hover {
   cursor: pointer;
   transform: scale(1.1);
-  transition: all 2s;
+  transition: all 1s;
+
+
 }
